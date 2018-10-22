@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Components - part 2</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+	<div class="container">
+		<ul class="list-group">
+			<li class="list-group-item">List Item</li>
+			<li class="list-group-item">List Item</li>
+			<li class="list-group-item">List Item</li>
+			<li class="list-group-item">List Item</li>
+
+		</ul>
+
+		<br><br>
+		<div class="list-group">
+			<a href="#" class="list-group-item active">List Item</a>
+			<a href="#" class="list-group-item list-group-item-success">List Item</a>
+			<a href="#" class="list-group-item list-group-item-danger">List Item</a>
+			<a href="#" class="list-group-item list-group-item-warning">List Item</a>
+		</div>
+
+		<br><br>
+		<h1>List group with badges</h1>
+
+		<ul class="list-group">
+			<li class="list-group-item d-flex justify-content-between align-items-center">
+				Cras justo odio
+				<span class="badge badge-primary badge-pill">14</span>
+			</li>
+			<li class="list-group-item d-flex justify-content-between align-items-center">
+				Dapibus ac facilisis in
+				<span class="badge badge-primary badge-pill">2</span>
+			</li>
+			<li class="list-group-item d-flex justify-content-between align-items-center">
+				Morbi leo risus
+				<span class="badge badge-primary badge-pill">1</span>
+			</li>
+		</ul>
+
+
+
+		<div class="list-group">
+			<a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+				<div class="d-flex w-100 justify-content-between">
+					<h5 class="mb-1">List group item heading</h5>
+					<small>3 days ago</small>
+				</div>
+				<p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+				<small>Donec id elit non mi porta.</small>
+			</a>
+			<a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+				<div class="d-flex w-100 justify-content-between">
+					<h5 class="mb-1">List group item heading</h5>
+					<small class="text-muted">3 days ago</small>
+				</div>
+				<p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+				<small class="text-muted">Donec id elit non mi porta.</small>
+			</a>
+			<a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+				<div class="d-flex w-100 justify-content-between">
+					<h5 class="mb-1">List group item heading</h5>
+					<small class="text-muted">3 days ago</small>
+				</div>
+				<p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+				<small class="text-muted">Donec id elit non mi porta.</small>
+			</a>
+		</div>
+
+
+		<h1>Small Page using bootstrap.js</h1>
+		<div class="row">
+			<div class="col-4">
+				<div class="list-group" id="list-tab" role="tablist">
+					<a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
+					<a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+					<a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+					<a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+				</div>
+			</div>
+			<div class="col-8">
+				<div class="tab-content" id="nav-tabContent">
+					<div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Home Page</div>
+					<div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Profile Page</div>
+					<div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Messages Page</div>
+					<div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Settings Page</div>
+				</div>
+			</div>
+		</div>
+
+
+		<h1>All kinds of alerts</h1>
+
+		<div class="alert alert-primary" role="alert">
+			A simple primary alert—check it out!
+		</div>
+		<div class="alert alert-secondary" role="alert">
+			A simple secondary alert—check it out!
+		</div>
+		<div class="alert alert-success" role="alert">
+			A simple success alert—check it out!
+		</div>
+		<div class="alert alert-danger" role="alert">
+			A simple danger alert—check it out!
+		</div>
+		<div class="alert alert-warning" role="alert">
+			A simple warning alert—check it out!
+		</div>
+		<div class="alert alert-info" role="alert">
+			A simple info alert—check it out!
+		</div>
+		<div class="alert alert-light" role="alert">
+			A simple light alert—check it out!
+		</div>
+		<div class="alert alert-dark" role="alert">
+			A simple dark alert—check it out!
+		</div>
+
+		<h1>Progress Bar</h1>
+
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+		</div>
+		<br>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+		</div>
+		<br>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+		</div>
+		<br>
+		<div class="progress">
+			<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+		</div>
+		<br> 
+		<div class="progress">
+			<div class="progress-bar bg-success progress-bar-striped" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Download Finish</div>
+		</div>
+		<br>
+	</div>
+
+
+
+	<script
+	src="https://code.jquery.com/jquery-3.3.1.js"
+	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	crossorigin="anonymous"></script>
+	<script src="js/bootstrap.js" type="text/javascript"></script>
+</body>
+</html>
